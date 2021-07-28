@@ -28,7 +28,7 @@ export default function Home({ product }: HomeProps): JSX.Element {
           </p>
           <SubscribeButton priceId={product.priceId} />
         </section>
-        <img src="images/avatar/svg" alt="Girl coding" />
+        <img src="images/avatar.svg" alt="Girl coding" />
       </main>
     </>
   );
